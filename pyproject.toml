@@ -1,0 +1,20 @@
+[project]
+name = "AIMS-2025-NeuroSimInf"
+version = "0.1.0"
+description = "Course repository for Simulation and Inference for Neuroscience."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jaxley-mech>=0.2.0",
+    "jaxley>=0.6.2",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.3",
+    "pandas>=2.2.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=8.32.0",
+    "jupyter>=1.1.1",
+    "nbdime>=4.0.2",
+]
