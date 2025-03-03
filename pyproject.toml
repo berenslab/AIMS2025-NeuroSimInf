@@ -11,11 +11,11 @@ dependencies = [
     "numpy>=2.2.3",
     "pandas>=2.2.3",
     "sbi>=0.22.0",
+    "ipython>=8.32.0",
+    "jupyter>=1.1.1",
 ]
 
 [dependency-groups]
 dev = [
-    "ipython>=8.32.0",
-    "jupyter>=1.1.1",
     "nbdime>=4.0.2",
 ]

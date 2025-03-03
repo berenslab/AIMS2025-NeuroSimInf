@@ -26,12 +26,12 @@ dependencies = [
     { name = "numpy" },
     { name = "pandas" },
     { name = "sbi" },
+    { name = "ipython" },
+    { name = "jupyter" },
 ]
 
 [package.dev-dependencies]
 dev = [
-    { name = "ipython" },
-    { name = "jupyter" },
     { name = "nbdime" },
 ]
 
@@ -43,12 +43,12 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.2.3" },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "sbi", specifier = ">=0.22.0" },
+    { name = "ipython", specifier = ">=8.32.0" },
+    { name = "jupyter", specifier = ">=1.1.1" },
 ]
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "ipython", specifier = ">=8.32.0" },
-    { name = "jupyter", specifier = ">=1.1.1" },
     { name = "nbdime", specifier = ">=4.0.2" },
 ]
 
