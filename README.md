@@ -53,7 +53,7 @@ If you don't have conda installed, you can install it [here](https://docs.conda.
 Once you have conda installed, you can create a python environment and install the dependencies by running:
 
 ```bash
-conda create -n sim-inf-neuro python=3.10
+conda create -n sim-inf-neuro python=3.12
 conda activate sim-inf-neuro
 pip install -e .
 ```
