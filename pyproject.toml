@@ -13,6 +13,7 @@ dependencies = [
     "sbi>=0.22.0",
     "ipython>=8.32.0",
     "jupyter>=1.1.1",
+    "optax>=0.2.4",
 ]
 
 [dependency-groups]
